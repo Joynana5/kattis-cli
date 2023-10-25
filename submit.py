@@ -5,7 +5,6 @@ import os
 import re
 import sys
 import time
-
 import requests
 import requests.exceptions
 
@@ -20,7 +19,7 @@ else:
 
 # End Python 2/3 compatibility
 
-_DEFAULT_CONFIG = '/usr/local/etc/kattisrc'
+_DEFAULT_CONFIG = 'export PATH="$PATH:/Users/user/Desktop/kattis-cli"'
 _LANGUAGE_GUESS = {
     '.c': 'C',
     '.c++': 'C++',
