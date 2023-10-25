@@ -1,0 +1,4 @@
+export PATH
+PATH = `$PATH:/Users/user/Desktop/kattis-cli`
+
+
